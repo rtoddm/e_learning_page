@@ -1,9 +1,9 @@
 body {
-  /* outline: blue 3px solid; */
+  /* outline: blue 30px solid; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 3000px;
+  height: 2700px;
   margin: 0;
 }
 
@@ -12,12 +12,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 25px;
-  padding: 20px;
   /* margin-top: 50px; */ /************** Add Top Margin to Desktop ***************/
-  gap: 33px;
-  width: 375px;
-  height: 2800px;
+  width: 345px;
+  height: 2700px;
 }
 
 /* ***** Top Sectiion ***** */
@@ -75,10 +72,12 @@ header h1 {
   font-size: 40px;
   line-height: 50px;
   margin-bottom: 0;
+  margin-left: 16px;
   color: #13183f;
 }
 
 .top-section-paragraph {
+  /* outline: turquoise solid 2px; */
   width: 350px;
   height: 78px;
   font-family: "Plus Jakarta Sans";
@@ -88,10 +87,10 @@ header h1 {
   letter-spacing: 0;
   line-height: 26px;
   color: #83869a;
-  margin: 33px 16px;
+  margin: 33px 16px 25px 16px;
 }
 
-.button-container {
+.button-two-container {
   /* outline: blue 3px solid; */
   align-self: flex-start;
   margin-left: 10px;
@@ -99,10 +98,10 @@ header h1 {
 }
 
 .button-two {
-  outline: red solid 3px;
-
+  /* outline: red solid 3px; */
   width: 175px;
   height: 60px;
+  margin-bottom: 10px;
 
   /* Gradient 1 */
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
@@ -116,23 +115,29 @@ header h1 {
   color: #ffffff;
 }
 
-.image-one {
+.mobile-image-one {
   /* outline: red solid 3px; */
+  /* display: inline-block; */
   width: 465px;
   margin-bottom: 0;
 }
 
-/* ***** Bottom Section ***** */
+.tablet-image-one {
+  display: none;
+}
+
+/* ***** Bottom Section ************************************************************* */
 .bottom-section {
   /* outline: aqua 3px solid; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 375px;
-  height: 2200px;
-  padding: 20px;
+  width: 345px;
+  height: 1750px;
   background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  padding: 0px 20px 0px 20px;
+  margin-top: 35px;
 }
 
 .popular {
@@ -144,8 +149,8 @@ header h1 {
 
 .popular-courses {
   /* outline: rgb(0, 255, 187) dotted 5px; */
-  width: 370px;
-  height: 130px;
+  width: 345px;
+  height: 122px;
   margin-top: 0px;
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   border-radius: 10px;
@@ -168,22 +173,21 @@ header h1 {
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 800;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 32px;
   color: #ffffff;
 }
 
 /* ***** Animation ***** */
 .animation {
-  /* outline: 2px aquamarine dotted; */
   background: #ffffff;
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
   border-radius: 10px;
   margin-top: 50px;
   padding-left: 28px;
   padding-bottom: 32px;
-  width: 343px;
-  height: 259px;
+  width: 325px;
+  height: 235px;
   left: 16px;
   top: 1184px;
 }
@@ -197,11 +201,19 @@ header h1 {
 
 .animation h2 {
   margin-top: 0;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
 }
 
 .animation p {
+  /* outline: black solid 2px; */
   width: 286px;
   height: 100px;
+  margin-bottom: 0;
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 400;
@@ -214,8 +226,7 @@ header h1 {
   /* outline: green solid 2px; */
   display: flex;
   justify-content: flex-start;
-  margin-top: 5px;
-  margin-bottom: 50px;
+  height: 25px;
 }
 
 .animation-button {
@@ -231,20 +242,20 @@ header h1 {
   font-size: 18px;
   line-height: 28px;
   color: #f74780;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
+  padding-left: 0;
 }
 
 /* ***** Design ***** */
 .design {
-  /* outline: green solid 3px; */
   background: #ffffff;
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
   border-radius: 10px;
   margin-top: 50px;
   padding-left: 28px;
   padding-bottom: 32px;
-  width: 343px;
-  height: 259px;
+  width: 325px;
+  height: 235px;
   left: 16px;
   top: 1184px;
 }
@@ -259,11 +270,20 @@ header h1 {
 
 .design h2 {
   margin-top: 0;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
 }
 
 .design p {
-  width: 286px;
+  width: 300px;
   height: 100px;
+  margin-right: 29px;
+  margin-bottom: 0;
+  padding-right: 0;
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 400;
@@ -273,17 +293,16 @@ header h1 {
 }
 
 .design-button-container {
+  /* outline: black solid 2px; */
   display: flex;
   justify-content: flex-start;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .design-button {
+  /* outline: blue solid 2px; */
   height: 28px;
-  left: 8.16%;
-  right: 61.52%;
-  top: calc(50% - 28px / 2 + 95.5px);
   background-color: white;
   border: none;
   font-family: "Plus Jakarta Sans";
@@ -292,7 +311,7 @@ header h1 {
   font-size: 18px;
   line-height: 28px;
   color: #f74780;
-  margin-bottom: 35px;
+  margin-bottom: 0;
   padding-left: 0;
 }
 
@@ -304,8 +323,8 @@ header h1 {
   margin-top: 50px;
   padding-left: 28px;
   padding-bottom: 32px;
-  width: 343px;
-  height: 259px;
+  width: 325px;
+  height: 235px;
   left: 16px;
   top: 1184px;
 }
@@ -319,11 +338,19 @@ header h1 {
 
 .photography h2 {
   margin-top: 0;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
 }
 
 .photography p {
   width: 286px;
   height: 100px;
+  margin-right: 29px;
+  margin-bottom: 0;
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 400;
@@ -336,15 +363,12 @@ header h1 {
   /* outline: green solid 2px; */
   display: flex;
   justify-content: flex-start;
-  margin-top: 5px;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .photography-button {
   height: 28px;
-  left: 8.16%;
-  right: 61.52%;
-  top: calc(50% - 28px / 2 + 95.5px);
   background-color: white;
   border: none;
   font-family: "Plus Jakarta Sans";
@@ -353,7 +377,8 @@ header h1 {
   font-size: 18px;
   line-height: 28px;
   color: #f74780;
-  margin-bottom: 35px;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 /* ***** Crypto ***** */
@@ -364,8 +389,8 @@ header h1 {
   margin-top: 50px;
   padding-left: 28px;
   padding-bottom: 32px;
-  width: 343px;
-  height: 259px;
+  width: 325px;
+  height: 235px;
   left: 16px;
   top: 1184px;
 }
@@ -379,11 +404,18 @@ header h1 {
 
 .crypto h2 {
   margin-top: 0;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
 }
 
 .crypto p {
   width: 286px;
   height: 100px;
+  margin-bottom: 0;
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 400;
@@ -402,9 +434,6 @@ header h1 {
 
 .crypto-button {
   height: 28px;
-  left: 8.16%;
-  right: 61.52%;
-  top: calc(50% - 28px / 2 + 95.5px);
   background-color: white;
   border: none;
   font-family: "Plus Jakarta Sans";
@@ -413,22 +442,21 @@ header h1 {
   font-size: 18px;
   line-height: 28px;
   color: #f74780;
-  margin-bottom: 35px;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 /* ***** Business ***** */
 .business {
+  /* outline: greenyellow solid 2px; */
   background: #ffffff;
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
   border-radius: 10px;
   margin-top: 50px;
-  margin-bottom: 50px;
   padding-left: 28px;
   padding-bottom: 32px;
-  width: 343px;
-  height: 259px;
-  left: 16px;
-  top: 1184px;
+  width: 325px;
+  height: 235px;
 }
 
 .business img {
@@ -440,11 +468,18 @@ header h1 {
 
 .business h2 {
   margin-top: 0;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
 }
 
 .business p {
   width: 286px;
   height: 100px;
+  margin-bottom: 0;
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 400;
@@ -458,14 +493,10 @@ header h1 {
   display: flex;
   justify-content: flex-start;
   margin-top: 5px;
-  margin-bottom: 50px;
 }
 
 .business-button {
   height: 28px;
-  left: 8.16%;
-  right: 61.52%;
-  top: calc(50% - 28px / 2 + 95.5px);
   background-color: white;
   border: none;
   font-family: "Plus Jakarta Sans";
@@ -474,7 +505,8 @@ header h1 {
   font-size: 18px;
   line-height: 28px;
   color: #f74780;
-  margin-bottom: 35px;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 /* ***** Footer ***** */
@@ -485,9 +517,11 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: #13183f;
-  width: 375px;
+  width: 345px;
   height: 120px;
-  margin-top: 25px;
+  /* margin-top: 80px; */
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 footer img {
@@ -512,4 +546,140 @@ footer img {
   font-size: 16px;
   line-height: 28px;
   color: #ffffff;
+}
+
+/* ***** Tablet Media Query ***** */
+/* ****************************** */
+
+@media all and (min-width: 768px) {
+  body {
+    height: 1800px;
+    margin-top: 10px;
+  }
+
+  .content-wrapper {
+    /* outline: red solid 2px; */
+    width: 768px;
+    height: 1900px;
+    margin-top: 15px;
+  }
+
+  .top-section {
+    /* outline: #f02aa6 dotted 3px; */
+    width: 768px;
+    height: 650px;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  /* .main-title-div {
+    outline: green solid 2px;
+    width: 450px;
+  }*/
+
+  .top-section-paragraph {
+    /* outline: lightcoral 3px solid; */
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    width: 400px;
+    height: 70px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 689px;
+    height: 48px;
+  }
+
+  .main-title-div {
+    position: relative;
+    right: 170px;
+    margin-top: 70px;
+  }
+
+  .mobile-image-one {
+    display: none;
+  }
+
+  .tablet-image-one {
+    display: inline;
+    position: relative;
+    bottom: 565px;
+    left: 340px;
+    overflow: hidden;
+    width: 725px;
+    height: 725px;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+
+  .bottom-section {
+    /* outline: yellow 3px solid; */
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 768px;
+    height: 999px;
+    padding: 0;
+    margin-top: 0px;
+  }
+
+  .popular-courses {
+    width: 339px;
+    height: 259px;
+    margin-top: 24px;
+    margin-left: 25px;
+  }
+
+  .animation {
+    order: 3;
+    width: 320px;
+    height: 259px;
+    margin-top: 0;
+    margin-right: 25px;
+    padding-bottom: 22px;
+  }
+
+  .animation img {
+    bottom: 15px;
+  }
+
+  .design {
+    order: 1;
+    width: 320px;
+    height: 239px;
+    margin-left: 25px;
+  }
+
+  .photography {
+    order: 4;
+    width: 320px;
+    height: 239px;
+    margin-right: 25px;
+  }
+
+  .crypto {
+    order: 2;
+    width: 320px;
+    height: 239px;
+    margin-left: 25px;
+  }
+
+  .business {
+    order: 5;
+    width: 320px;
+    height: 239px;
+    margin-right: 25px;
+  }
+
+  footer {
+    /* position: relative; */
+    order: 6;
+    width: 728px;
+    height: 120px;
+  }
 }
