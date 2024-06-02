@@ -1,35 +1,28 @@
+/* ***** Mobile First Section ***** */
+
 body {
-  /* outline: blue 30px solid; */
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 375px;
   height: 2700px;
   margin: 0 auto;
-
-  /* Mobile */
-
   position: relative;
   width: 375px;
   height: 2615px;
-
-  /* FFFFFF */
   background: #ffffff;
 }
 
 .content-wrapper {
-  /* outline: black solid 3px; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 50px; */ /************** Add Top Margin to Desktop ***************/
   width: 345px;
   height: 2700px;
 }
 
-/* ***** Top Sectiion ***** */
+/* ***** Top Section ***** */
 .top-section {
-  /* outline: blue solid 2px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,7 +84,6 @@ header img {
 }
 
 .top-section-paragraph {
-  /* outline: turquoise solid 2px; */
   width: 350px;
   height: 78px;
   font-family: "Plus Jakarta Sans";
@@ -105,19 +97,16 @@ header img {
 }
 
 .button-two-container {
-  /* outline: blue 3px solid; */
   align-self: flex-start;
   margin-left: 10px;
   margin-bottom: 10px;
 }
 
 .button-two {
-  /* outline: red solid 3px; */
   width: 175px;
   height: 60px;
   margin-bottom: 10px;
 
-  /* Gradient 1 */
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   border-radius: 31.5px;
   border: none;
@@ -130,8 +119,6 @@ header img {
 }
 
 .mobile-image-one {
-  /* outline: red solid 3px; */
-  /* display: inline-block; */
   width: 465px;
   margin-bottom: 0;
 }
@@ -144,9 +131,8 @@ header img {
   display: none;
 }
 
-/* ***** Bottom Section ************************************************************* */
+/* ***** Bottom Section ***** */
 .bottom-section {
-  /* outline: aqua 3px solid; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -159,14 +145,12 @@ header img {
 }
 
 .popular {
-  /* outline: purple 5px solid; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .popular-courses {
-  /* outline: rgb(0, 255, 187) dotted 5px; */
   width: 345px;
   height: 122px;
   margin-top: 0px;
@@ -185,7 +169,6 @@ header img {
 }
 
 .popular-courses p {
-  /* outline: 2px pink solid; */
   width: 250px;
   padding-left: 30px;
   font-family: "Plus Jakarta Sans";
@@ -228,7 +211,6 @@ header img {
 }
 
 .animation p {
-  /* outline: black solid 2px; */
   width: 286px;
   height: 100px;
   margin-bottom: 0;
@@ -241,7 +223,6 @@ header img {
 }
 
 .animation-button-container {
-  /* outline: green solid 2px; */
   display: flex;
   justify-content: flex-start;
   height: 25px;
@@ -279,7 +260,6 @@ header img {
 }
 
 .design img {
-  /* outline: black solid 5px; */
   position: relative;
   bottom: 25px;
   width: 56px;
@@ -311,7 +291,6 @@ header img {
 }
 
 .design-button-container {
-  /* outline: black solid 2px; */
   display: flex;
   justify-content: flex-start;
   margin-top: 0px;
@@ -319,7 +298,6 @@ header img {
 }
 
 .design-button {
-  /* outline: blue solid 2px; */
   height: 28px;
   background-color: white;
   border: none;
@@ -378,7 +356,6 @@ header img {
 }
 
 .photography-button-container {
-  /* outline: green solid 2px; */
   display: flex;
   justify-content: flex-start;
   margin-top: 0px;
@@ -443,7 +420,6 @@ header img {
 }
 
 .crypto-button-container {
-  /* outline: green solid 2px; */
   display: flex;
   justify-content: flex-start;
   margin-top: 5px;
@@ -466,7 +442,6 @@ header img {
 
 /* ***** Business ***** */
 .business {
-  /* outline: greenyellow solid 2px; */
   background: #ffffff;
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
   border-radius: 10px;
@@ -507,7 +482,6 @@ header img {
 }
 
 .business-button-container {
-  /* outline: green solid 2px; */
   display: flex;
   justify-content: flex-start;
   margin-top: 5px;
@@ -529,7 +503,6 @@ header img {
 
 /* ***** Footer ***** */
 footer {
-  /* outline: greenyellow solid 3px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -537,13 +510,11 @@ footer {
   background-color: #13183f;
   width: 345px;
   height: 120px;
-  /* margin-top: 80px; */
   padding-right: 20px;
   padding-left: 20px;
 }
 
 footer img {
-  /* outline: red solid 2px; */
   width: 89px;
   height: 22px;
   margin-top: 25px;
@@ -576,27 +547,19 @@ footer img {
   }
 
   .content-wrapper {
-    /* outline: red solid 2px; */
     width: 768px;
     height: 1900px;
     margin-top: 15px;
   }
 
   .top-section {
-    /* outline: #f02aa6 dotted 3px; */
     width: 768px;
     height: 650px;
     padding: 0;
     overflow: hidden;
   }
 
-  /* .main-title-div {
-    outline: green solid 2px;
-    width: 450px;
-  }*/
-
   .top-section-paragraph {
-    /* outline: lightcoral 3px solid; */
     font-family: "Plus Jakarta Sans";
     font-style: normal;
     font-weight: 500;
@@ -640,7 +603,6 @@ footer img {
   }
 
   .bottom-section {
-    /* outline: 2px red solid; */
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -651,7 +613,6 @@ footer img {
   }
 
   .popular-courses {
-    /* outline: black solid 2px; */
     width: 345px;
     height: 265px;
     margin-top: 15px;
@@ -659,7 +620,6 @@ footer img {
   }
 
   .animation {
-    /* outline: black solid 2px; */
     order: 3;
     width: 320px;
     height: 259px;
@@ -742,6 +702,11 @@ footer img {
     height: 56px;
     left: 1090px;
     top: 30px;
+    z-index: 2;
+  }
+
+  .button-one:hover {
+    background: #666ca3;
   }
 
   .main-title-div {
@@ -750,6 +715,16 @@ footer img {
     height: 359px;
     left: 185px;
     top: 205px;
+  }
+
+  .button-two:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    border-radius: 31.5px;
   }
 
   .mobile-image-one {
@@ -767,6 +742,7 @@ footer img {
     height: 936.92px;
     left: 540px;
     top: -145.13px;
+    z-index: 1;
   }
 
   .top-section-paragraph {
@@ -774,7 +750,6 @@ footer img {
   }
 
   .bottom-section {
-    /* outline: red solid 2px; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -843,5 +818,15 @@ footer img {
   .footer-button {
     position: relative;
     right: 155px;
+  }
+
+  .footer-button:hover {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+    border-radius: 28px;
   }
 }
