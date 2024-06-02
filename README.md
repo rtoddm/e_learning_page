@@ -15,7 +15,7 @@ This was a great project which is fairly simple and involves only HTML and CSS. 
 
 ### Screenshot
 
-![Desktop](/assets/e_learning_page_desktop.jpeg)
+![Desktop]([/assets/e_learning_page_desktop.jpeg](https://github.com/rtoddm/e_learning_page/blob/main/assets/e_learning_page_desktop.png))
 ![](/assets/e_learning_page_table.jpeg)
 ![](/assets/e_learning_page_mobile.jpeg)
 
