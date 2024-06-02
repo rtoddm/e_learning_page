@@ -3,8 +3,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 375px;
   height: 2700px;
-  margin: 0;
+  margin: 0 auto;
+
+  /* Mobile */
+
+  position: relative;
+  width: 375px;
+  height: 2615px;
+
+  /* FFFFFF */
+  background: #ffffff;
 }
 
 .content-wrapper {
@@ -44,6 +54,10 @@ header h1 {
   color: #13183f;
   margin-top: 0;
   margin-right: 50px;
+}
+
+header img {
+  display: none;
 }
 
 .button-one {
@@ -123,6 +137,10 @@ header h1 {
 }
 
 .tablet-image-one {
+  display: none;
+}
+
+.desktop-image-one {
   display: none;
 }
 
@@ -549,7 +567,7 @@ footer img {
 }
 
 /* ***** Tablet Media Query ***** */
-/* ****************************** */
+/* ******************************************************************** */
 
 @media all and (min-width: 768px) {
   body {
@@ -617,8 +635,12 @@ footer img {
     overflow: hidden;
   }
 
+  .desktop-image-one {
+    display: none;
+  }
+
   .bottom-section {
-    /* outline: yellow 3px solid; */
+    /* outline: 2px red solid; */
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -629,13 +651,15 @@ footer img {
   }
 
   .popular-courses {
-    width: 339px;
-    height: 259px;
-    margin-top: 24px;
+    /* outline: black solid 2px; */
+    width: 345px;
+    height: 265px;
+    margin-top: 15px;
     margin-left: 25px;
   }
 
   .animation {
+    /* outline: black solid 2px; */
     order: 3;
     width: 320px;
     height: 259px;
@@ -677,9 +701,147 @@ footer img {
   }
 
   footer {
-    /* position: relative; */
     order: 6;
     width: 728px;
     height: 120px;
+  }
+}
+
+/* ***** Desktop Media Query ***** */
+/* ***************************************************************************** */
+
+@media all and (min-width: 1440px) {
+  body {
+    width: 1440px;
+    height: 1845px;
+    margin: 0 auto;
+  }
+
+  .top-section {
+    width: 1440px;
+    overflow: hidden;
+    padding-bottom: 200px;
+  }
+
+  header h1 {
+    display: none;
+  }
+
+  header img {
+    display: inline-block;
+    position: absolute;
+    width: 111px;
+    height: 30px;
+    left: 200px;
+    top: 40px;
+  }
+
+  .button-one {
+    position: absolute;
+    width: 167px;
+    height: 56px;
+    left: 1090px;
+    top: 30px;
+  }
+
+  .main-title-div {
+    position: absolute;
+    width: 457px;
+    height: 359px;
+    left: 185px;
+    top: 205px;
+  }
+
+  .mobile-image-one {
+    display: none;
+  }
+
+  .tablet-image-one {
+    display: none;
+  }
+
+  .desktop-image-one {
+    display: inline-block;
+    position: relative;
+    width: 991.63px;
+    height: 936.92px;
+    left: 540px;
+    top: -145.13px;
+  }
+
+  .top-section-paragraph {
+    margin-bottom: 50px;
+  }
+
+  .bottom-section {
+    /* outline: red solid 2px; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 888px;
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  }
+
+  .popular-courses {
+    order: 1;
+    width: 345px;
+    height: 259px;
+    margin: 10px 0 0 0px;
+  }
+
+  .animation {
+    order: 2;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .design {
+    order: 3;
+    height: 259px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .photography {
+    order: 4;
+    height: 259px;
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+
+  .crypto {
+    order: 5;
+    height: 259px;
+    margin-top: 0;
+    margin-right: 25px;
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+
+  .business {
+    order: 6;
+    height: 259px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 100px;
+  }
+
+  footer {
+    width: 1440px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  footer img {
+    position: relative;
+    left: 155px;
+    width: 111px;
+    height: 27px;
+  }
+
+  .footer-button {
+    position: relative;
+    right: 155px;
   }
 }
